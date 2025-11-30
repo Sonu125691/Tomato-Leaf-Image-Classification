@@ -81,3 +81,10 @@ This makes the system user-friendly for:
 - Students & researchers  
 
 ---
+
+## 🛠️ Technologies Used
+- Python  
+- TensorFlow
+- Convolutional Neural Networks (CNN)  
+- OpenCV / Image Processing  
+- Streamlit  
