@@ -62,8 +62,6 @@ This ensures that the final saved model is the **best-performing version**, not 
 | Training | **94.45%** | 0.163 |
 | Testing | **93.43%** | 0.224 |
 
-The model generalizes well and is robust to real-world leaf image variations.
-
 ---
 
 ## 🌐 Streamlit Web Application
