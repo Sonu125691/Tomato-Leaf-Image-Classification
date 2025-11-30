@@ -4,24 +4,6 @@ import numpy as np
 import base64
 
 
-def add_bg_from_local(image_file):
-    with open(image_file, "rb") as file:
-        encoded = base64.b64encode(file.read()).decode()
-    css = f"""
-    <style>
-    .stApp {{
-        background-image: url("data:image/png;base64,{encoded}");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    }}
-    </style>
-    """
-    st.markdown(css, unsafe_allow_html=True)
-
-add_bg_from_local("360_F_539404495_0sbeFnwnn4GekCz6XHociSIAMkGf0ths.jpg")
-
-
 @st.cache_resource
 def load_my_model():
     from tensorflow.keras.models import load_model
