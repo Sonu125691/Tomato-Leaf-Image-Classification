@@ -1,4 +1,4 @@
-# 🍅 Tomato Leaf Disease Classification
+# 🍅 Tomato Leaf Disease Classification (CNN)
 
 Tomato is one of the most widely consumed vegetables in the world, and maintaining crop quality is critical for food supply and farmer income.  
 Most tomato diseases begin at the **leaf stage**, and early detection prevents the infection from spreading to the stem, fruits, and nearby plants.
@@ -85,6 +85,17 @@ This makes the system user-friendly for:
 - Framework: **TensorFlow**
 
 **The Model has been trained on Google colab**
+
+---
+
+## 🧪 Model Training (Google Colab)
+
+The CNN model was trained using **Google Colab** to leverage GPU acceleration and faster training.
+
+👉 **Training Notebook (Google Colab):**  
+https://colab.research.google.com/drive/1AD8oRVuyD68VJqKMpY92tahusvrLyVNv?usp=drive_link
+
+The trained model was then saved and used directly in the Streamlit application for inference.
 
 ---
 
